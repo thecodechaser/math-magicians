@@ -38,7 +38,6 @@ To get a local copy up and running follow these simple example steps.
 - Run the following commands as listed in your terminal:
 - `npm install`
 - `npm run start # this will make webpack watching for your changes in code`
-- `npm start #This is to run the tests on the count method`
 
 ## Visit And Open Files
 
