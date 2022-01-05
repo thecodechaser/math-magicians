@@ -6,6 +6,11 @@ class Calculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick(e) {
+    this.setState((state) => calculate(state, e.target.textContent));
   }
 
   render() {
