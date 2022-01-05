@@ -6,9 +6,7 @@
 
 ## Screenshots:
 
-### mobile
-
-### desktop
+![screenshot](./src/images/Screenshot1.png)
 
 Project's features are added into seperate branch to keep main branch safe.
 
