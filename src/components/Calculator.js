@@ -5,12 +5,11 @@ import './Calculator.css';
 const Calculator = () => {
 
   const [state, setState] = useState({});
-  
  const handleClick = (e) => {
-    setState((state) => calculate(state, e.target.textContent));
+    setState(calculate(state, e.target.textContent));
   }
 
-    const { next, total } =state;
+    const { next, total } = state;
     return (
       <main>
         <div className="output"><p className="output-p">{next || total || 0}</p></div>
