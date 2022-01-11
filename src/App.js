@@ -4,13 +4,21 @@ import Calculator from './components/Calculator';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Quote from './components/Quote';
+import { Routes, Route } from 'react-router-dom'
 
 class App extends React.Component {
   render() {
     return (
       <>
       <Navbar />
-    <Calculator />
+      <Routes>
+        <Route path="/home"
+        element={(
+          <Home />
+        )}
+        />
+        
+      </Routes>
     </>
     );
   }
