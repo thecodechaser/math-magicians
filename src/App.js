@@ -12,7 +12,7 @@ class App extends React.Component {
       <>
       <Navbar />
       <Routes>
-        <Route path="/home"
+        <Route path="/"
         element={(
           <Home />
         )}

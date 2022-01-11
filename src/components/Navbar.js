@@ -5,7 +5,7 @@ const Navbar =()=> {
     const links = [
         {
             id: 1,
-            path: "/home",
+            path: "/",
             text: "Home"
         },
         {
