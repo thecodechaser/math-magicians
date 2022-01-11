@@ -22,7 +22,11 @@ class App extends React.Component {
           <Calculator />
         )}
         />
-       
+        <Route path="/quote"
+        element={(
+          <Quote />
+        )}
+        />
       </Routes>
     </>
     );
