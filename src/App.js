@@ -17,7 +17,12 @@ class App extends React.Component {
           <Home />
         )}
         />
-        
+        <Route path="/calculator"
+        element={(
+          <Calculator />
+        )}
+        />
+       
       </Routes>
     </>
     );
