@@ -1,5 +1,5 @@
 import React from "react";
-export { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navbar =()=> {
     const links = [
@@ -24,11 +24,11 @@ const Navbar =()=> {
         <nav>
         <ul>
            {
-               links.map((link) => {
+               links.map((link) => (
                    <li key={link.id}>
                        <NavLink to={link.path}>{link.text}</NavLink>
                    </li>
-               } )
+                ) )
            }
         </ul>
         </nav>
