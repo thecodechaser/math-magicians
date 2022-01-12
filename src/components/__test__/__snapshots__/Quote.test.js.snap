@@ -1,93 +1,37 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Header tests should render 1`] = `
+exports[`Quote tests renders correctly  1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <header
-        class="header"
+      <main
+        class="quote-main"
       >
-        <h1
-          class="header-heading"
+        <p
+          class="quote"
         >
-          Math Magicians
-        </h1>
-        <nav>
-          <ul
-            class="nav-menu"
-          >
-            <li>
-              <a
-                aria-current="page"
-                class="nav-item active"
-                href="/"
-              >
-                Home
-              </a>
-            </li>
-            <li>
-              <a
-                class="nav-item"
-                href="/calculator"
-              >
-                Calculator
-              </a>
-            </li>
-            <li>
-              <a
-                class="nav-item"
-                href="/quote"
-              >
-                Quote
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+          Without mathematics, there’s nothing you can do. Everything around you is mathematics. Everything around you is numbers.
+          <b>
+            — Shakuntala Devi, Indian writer and mental calculator
+          </b>
+        </p>
+      </main>
     </div>
   </body>,
   "container": <div>
-    <header
-      class="header"
+    <main
+      class="quote-main"
     >
-      <h1
-        class="header-heading"
+      <p
+        class="quote"
       >
-        Math Magicians
-      </h1>
-      <nav>
-        <ul
-          class="nav-menu"
-        >
-          <li>
-            <a
-              aria-current="page"
-              class="nav-item active"
-              href="/"
-            >
-              Home
-            </a>
-          </li>
-          <li>
-            <a
-              class="nav-item"
-              href="/calculator"
-            >
-              Calculator
-            </a>
-          </li>
-          <li>
-            <a
-              class="nav-item"
-              href="/quote"
-            >
-              Quote
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+        Without mathematics, there’s nothing you can do. Everything around you is mathematics. Everything around you is numbers.
+        <b>
+          — Shakuntala Devi, Indian writer and mental calculator
+        </b>
+      </p>
+    </main>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
