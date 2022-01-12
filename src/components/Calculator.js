@@ -12,6 +12,8 @@ const Calculator = () => {
   const { next, total } = state;
   return (
     <main>
+      <div><p>Let's do some math!</p></div>
+      <div>
       <div className="output"><p className="output-p">{next || total || 0}</p></div>
       <div className="cal-btns">
         <button className="btn" type="button" onClick={handleClick}>AC</button>
@@ -41,6 +43,7 @@ const Calculator = () => {
         <button className="btn zero" type="button" onClick={handleClick}>0</button>
         <button className="btn" type="button" onClick={handleClick}>.</button>
         <button className="btn last" type="button" onClick={handleClick}>=</button>
+      </div>
       </div>
     </main>
   );
