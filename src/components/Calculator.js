@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
-import './Calculator.css';
 
 const Calculator = () => {
   const [state, setState] = useState({});
@@ -11,7 +10,7 @@ const Calculator = () => {
 
   const { next, total } = state;
   return (
-    <main>
+    <main class="cal-main">
       <div><p>Let's do some math!</p></div>
       <div>
       <div className="output"><p className="output-p">{next || total || 0}</p></div>
