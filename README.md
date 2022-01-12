@@ -38,7 +38,8 @@ To get a local copy up and running follow these simple example steps.
 - Clone the project from GitHub `git@github.com:thecodechaser/math-magicians.git`
 - Run the following commands as listed in your terminal:
 - `npm install`
-- `npm run start # this will make webpack watching for your changes in code`
+- `npm start # this will make webpack watching for your changes in code`
+- `npm run test #This is to run the tests`
 
 ## Visit And Open Files
 
