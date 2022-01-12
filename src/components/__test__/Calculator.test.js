@@ -1,6 +1,6 @@
 import { render, fireEvent, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import Calculator from './Calculator';
+import Calculator from '../Calculator';
 
 describe('Calculator ui tests', () => {
   test('should render ', () => {
