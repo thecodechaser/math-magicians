@@ -27,6 +27,21 @@ body {
 
   /* style for home.js */
 
+  .home-main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .home-heading {
+      font-size: 25px;
+  }
+
+  .home-para {
+      font-size: 18px;
+      margin: 50px 200px;
+  }
+
 /* style for calculator.js */
 
 .cal-main {
