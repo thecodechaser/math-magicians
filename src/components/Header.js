@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from 'react-router-dom';
 
-const Navbar =()=> {
+const Header =()=> {
     const links = [
         {
             id: 1,
@@ -21,6 +21,8 @@ const Navbar =()=> {
     ]
 
     return (
+        <header>
+            <h1>Math Magicians</h1>
         <nav>
         <ul>
            {
@@ -32,7 +34,8 @@ const Navbar =()=> {
            }
         </ul>
         </nav>
+        </header>
     );
 }
 
-export default Navbar;
+export default Header;
