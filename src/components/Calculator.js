@@ -11,7 +11,7 @@ const Calculator = () => {
   const { next, total } = state;
   return (
     <main class="cal-main">
-      <div><p>Let's do some math!</p></div>
+      <div><p class="cal-heading">Let's do some math!</p></div>
       <div>
       <div className="output"><p className="output-p">{next || total || 0}</p></div>
       <div className="cal-btns">
