@@ -1,4 +1,4 @@
- @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 /* universal-style */
 
@@ -6,124 +6,125 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #a8dadc;
 }
- 
- /* style for header/js */
 
- .header {
-     display: flex;
-     justify-content: space-around;
- }
+/* style for header/js */
 
- .header-heading {
-     color: #264653;
- }
+.header {
+  display: flex;
+  justify-content: space-around;
+}
 
- .nav-menu {
-     display: flex;
-     list-style-type: none;
-     gap: 20px;
- }
+.header-heading {
+  color: #264653;
+}
 
- .nav-item {
-     font-size: 18px;
-     color: #264653;
-     text-decoration: none;
- }
+.nav-menu {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
 
- .nav-item:hover {
-    color: #e24d28;
- }
+.nav-item {
+  font-size: 18px;
+  color: #264653;
+  text-decoration: none;
+}
 
-  /* style for home.js */
+.nav-item:hover {
+  color: #e24d28;
+}
 
-  .home-main {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
+/* style for home.js */
 
-  .home-heading {
-      font-size: 25px;
-  }
+.home-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .home-para {
-      font-size: 18px;
-      margin: 50px 200px;
-  }
+.home-heading {
+  font-size: 25px;
+}
+
+.home-para {
+  font-size: 18px;
+  margin: 50px 200px;
+}
 
 /* style for calculator.js */
 
 .cal-main {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.cal-heading {
+  margin-right: 50px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.output {
+  display: flex;
+  justify-content: flex-end;
+  width: 400px;
+  background-color: gray;
+}
+
+.output-p {
+  margin-right: 5px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.cal-btns {
+  display: flex;
+}
+
+.btn {
+  background-color: #fff;
+  padding: 20px;
+  width: 100px;
+  border: 1px solid rgb(219, 212, 212);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn.last {
+  background-color: rgb(255, 166, 0);
+}
+
+.btn.zero {
+  width: 200px;
+}
+
+/* style for quote.js */
+
+.quote-main {
+  display: flex;
+  justify-content: center;
+}
+
+.quote {
+  font-size: 20px;
+
+  /* font-weight: 600; */
+  margin: 150px 200px;
+}
+
+@media screen and (max-width: 920px) {
+  .cal-main {
+    flex-direction: column;
+    align-items: center;
   }
 
-  .cal-heading {
-      margin-right: 50px;
-      font-size: 20px;
-      font-weight: 600;
-  }
-  
-  .output {
-    display: flex;
-    justify-content: flex-end;
-    width: 400px;
-    background-color: gray;
-  }
-  
-  .output-p {
-    margin-right: 5px;
-    font-size: 20px;
-    color: #fff;
-  }
-  
-  .cal-btns {
-    display: flex;
-  }
-  
-  .btn {
-    background-color: #fff;
-    padding: 20px;
-    width: 100px;
-    border: 1px solid rgb(219, 212, 212);
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  .btn.last {
-    background-color: rgb(255, 166, 0);
-  }
-  
-  .btn.zero {
-    width: 200px;
+  .home-para {
+    margin: 50px 20px;
   }
 
-  /* style for quote.js */
+  .quote {
+    margin: 150px 20px;
+  }
+}
 
- .quote-main {
-     display: flex;
-     justify-content: center;
- }
-
- .quote {
-     font-size: 20px;
-     /* font-weight: 600; */
-     margin: 150px 200px;
- }
-
- @media  screen and (max-width: 920px) {
-    .cal-main {
-        flex-direction: column;
-        align-items: center;
-      }
-
-      .home-para {
-        margin: 50px 20px;
-    }
-
-    .quote {
-        margin: 150px 20px;
-    }
- }
-  
