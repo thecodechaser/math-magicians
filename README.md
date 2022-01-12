@@ -7,6 +7,7 @@
 ## Screenshots:
 
 ![screenshot](./src/images/Screenshot1.png)
+![screenshot](./src/images/Screenshot2.png)
 
 Project's features are added into seperate branch to keep main branch safe.
 
@@ -20,7 +21,7 @@ Project's features are added into seperate branch to keep main branch safe.
 
 ## Online live link
 
-[Visit project online](https://thecodechaser.github.io/math-magicians/dist/)
+[Visit project online](https://thecodechaser.github.io/math-magicians/)
 
 ## Getting Started
 
