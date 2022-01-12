@@ -2,10 +2,10 @@ import React from "react";
 
 const Quote =()=> {
     return (
-        <div>
-            <h1>H1</h1>
-            <p>P</p>
-        </div>
+        <main>
+            <p>Without mathematics, there’s nothing you can do. Everything around you is mathematics. Everything around you is numbers.
+— Shakuntala Devi, Indian writer and mental calculator</p>
+        </main>
     );
 }
 
