@@ -22,13 +22,13 @@ const Header =()=> {
 
     return (
         <header className="header">
-            <h1>Math Magicians</h1>
+            <h1 className="header-heading">Math Magicians</h1>
         <nav>
         <ul className="nav-menu">
            {
                links.map((link) => (
-                   <li key={link.id} className="nav-item">
-                       <NavLink to={link.path} className="nav-item">{link.text}</NavLink>
+                   <li key={link.id} >
+                    <NavLink to={link.path} className="nav-item">{link.text}</NavLink>
                    </li>
                 ) )
            }
