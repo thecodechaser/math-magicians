@@ -11,9 +11,9 @@ const Calculator = () => {
   const { next, total } = state;
   return (
     <main className="cal-main">
-      <div><p className="cal-heading">Let&apos;s do some math!</p></div>
+      <div><h2 className="cal-heading">Let&apos;s do some math!</h2></div>
       <div>
-        <div className="output"><p className="output-p">{next || total || 0}</p></div>
+        <div className="output"><p data-testid="total" className="output-p">{next || total || 0}</p></div>
         <div className="cal-btns">
           <button className="btn" type="button" onClick={handleClick}>AC</button>
           <button className="btn" type="button" onClick={handleClick}>+/-</button>
