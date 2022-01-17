@@ -21,7 +21,8 @@ Project's features are added into seperate branch to keep main branch safe.
 
 ## Online live link
 
-[Visit project online](https://thecodechaser.github.io/math-magicians/)
+#### [Netlify](https://thecodechaser.github.io/math-magicians/)
+#### [Heroku](https://math-magicians-thecodechaser.herokuapp.com/)
 
 ## Getting Started
 
